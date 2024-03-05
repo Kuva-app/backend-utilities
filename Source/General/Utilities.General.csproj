@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>1.2.0</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackOnBuild>true</PackOnBuild>
+    <Authors>Tiago Almeida de Oliveira</Authors>
+    <Copyright>Kuva</Copyright>
+    <Owners>Kuva</Owners>
+    <Summary>Utilities</Summary>
+    <Title>Utilities.General</Title>
+    <Description>Utilidades gerais de desenvolvimento.</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageVersion>1.2.0</PackageVersion>
+    <LangVersion>default</LangVersion>
+    <Nullable>warnings</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+    <PackageReference Include="SharpZipLib" Version="1.4.2" />
+    <PackageReference Include="System.Text.Json" Version="8.0.2" />
+    <PackageReference Include="xunit.abstractions" Version="2.0.3" />
+    <PackageReference Include="xunit.extensibility.core" Version="2.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Http\Extensions.cs" />
+    <Compile Remove="XunitPriorityAttributes\GeneralTestCaseOrderer.cs" />
+  </ItemGroup>
+
+</Project>
