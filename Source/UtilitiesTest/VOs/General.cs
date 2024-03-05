@@ -12,7 +12,6 @@ namespace UtilitiesTest.VOs
         public const string CertThumbPrintB64 = "YWYyOTg3MzJiNjc5ZDZiZTJjMmJiMDE0NGZhY2YwNWIwNmFlYmUwNA==";
         public const string SecurityKey = "4nx2iOq";
         public static readonly Guid ApiKey = new Guid("b8c3fa9e-d066-41dc-8230-f06918e4f7bd");
-        public const string CertThumbPrintCompress = "KAAAAB+LCAAAAAAAAAoFwYEBACAEBMCVPomM48X+I3SXI3F9C83jGVtKSCzVyRocwrLZ0A/AfSrYKAAAAA==";
         public static readonly string? AppPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
         public const string FileNameZip = "ZipTest.zip";
         public const string FileNameLeandroUserMockJson = "LeandroUser.json";

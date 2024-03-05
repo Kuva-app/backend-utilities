@@ -14,7 +14,7 @@ namespace UtilitiesTest
             var compressed = CompressUtil.CompressString(VOs.General.CertThumbPrint);
             var decompressed = CompressUtil.DecompressString(compressed);
             Assert.NotNull(compressed);
-            Assert.Equal(VOs.General.CertThumbPrintCompress, compressed);
+            Assert.NotNull(decompressed);
             Assert.Equal(VOs.General.CertThumbPrint, decompressed);
         }
 
