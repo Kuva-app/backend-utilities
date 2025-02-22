@@ -40,7 +40,7 @@ jobs:
 
     - name: Copy Security utilities
       run: |
-          cp ./Source/Security/bin/Debug/net8.0/*.* ./output
+          cp ./Source/Security/bin/Debug/net9.0/*.* ./output
 
     - name: Upload artifacts
       uses: actions/upload-artifact@v4
