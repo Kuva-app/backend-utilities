@@ -43,7 +43,7 @@ jobs:
           cp ./Source/Security/bin/Debug/net8.0/*.* ./output
 
     - name: Upload artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: Project files
         path: |
@@ -71,7 +71,8 @@ jobs:
       run: dotnet pack ./Source/Utilities.sln --output ./output
 
     - name: Upload artifacts
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
+
       with:
         name: NuGet packages
         path: ./output/*.nupkg
