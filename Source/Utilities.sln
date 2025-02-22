@@ -12,6 +12,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CI", "CI", "{90339C29-89E5-4915-A32F-0AC9BAE68E10}"
 	ProjectSection(SolutionItems) = preProject
 		..\.github\workflows\dotnet.yml = ..\.github\workflows\dotnet.yml
+		..\.github\workflows\master.yml = ..\.github\workflows\master.yml
 	EndProjectSection
 EndProject
 Global
