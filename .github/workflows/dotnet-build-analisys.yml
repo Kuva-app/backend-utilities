@@ -37,7 +37,7 @@ jobs:
             ./output/**/*.*
 
   quality-gate:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     needs: build
     steps:
       - name: Set up JDK 17
