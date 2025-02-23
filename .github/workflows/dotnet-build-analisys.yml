@@ -46,9 +46,9 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
        with:
         args:
-         -Dsonar.projectKey=
-         -Dsonar.organization=
-        projectBaseDir: ./Source
+         -Dsonar.projectKey="Kuva-app_backend-utilities"
+         -Dsonar.organization="kuva-app"
+        projectBaseDir: .
 
   test:
     runs-on: ubuntu-latest
