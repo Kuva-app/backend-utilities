@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <AssemblyVersion>1.0.2.0</AssemblyVersion>
-    <FileVersion>1.0.2.0</FileVersion>
+    <AssemblyVersion>1.0.3.1</AssemblyVersion>
+    <FileVersion>1.0.3.1</FileVersion>
     <Version>1.0.3</Version>
     <Authors>Tiago Almeida de Oliveira</Authors>
     <Copyright>Kuva</Copyright>
@@ -14,7 +14,7 @@
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <SignAssembly>false</SignAssembly>
     <Description>Utilidades de segurança.</Description>
-    <PackageVersion>1.0.20</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <LangVersion>default</LangVersion>
     <Nullable>warnings</Nullable>
   </PropertyGroup>
